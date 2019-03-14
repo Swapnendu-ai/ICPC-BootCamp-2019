@@ -108,3 +108,6 @@ int main()
 {
     return 0;
 }
+
+//in bounds can be calculated by
+// min(a.x,b.x) <= p.x &&  min(a.x,b.x) >= p.x;

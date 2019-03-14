@@ -21,6 +21,8 @@ int main()
     if(y11>y12) swap(y11,y12);
     if(y21>y22) swap(y21,y22);
 
+    //instead of swap, use min or max as that is faster to code
+
     if(x11<x21 && x12<x21) flag = 0;
     if(x11>x22 && x12>x22) flag = 0;
     if(y11<y21 && y12<x21) flag = 0;
